@@ -1717,3 +1717,8 @@ section {
   color: #fff;
 }
 
+#public {
+  background: #d9dad9;
+  padding: 20px 0px;
+  margin: 10px 0px;
+}
