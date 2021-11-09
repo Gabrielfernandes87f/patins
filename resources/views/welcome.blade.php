@@ -79,7 +79,7 @@
         <p><strong>Adm: Gabriel Fernandes</strong></p>
       <h1 data-aos="zoom-in">Turma do patins</h1>
       <h2 data-aos="fade-up"><strong>venha patinar conosco, junte-se nós também no <a href="https://discord.gg/K95wtYHg">Discord</a></strong></h2>
-      <a data-aos="fade-up" data-aos-delay="200" href="/events/create" class="btn-get-started scrollto">chame outras pessoas para patinar</a>
+      <a data-aos="fade-up" data-aos-delay="200" href="/events/create" class="btn-get-started scrollto">Quer andar de patins? post aqui</a>
     </div>
   </section><!-- End Hero -->
 
@@ -385,7 +385,7 @@
                 <li>Não é muito, mas ajuda a manter o site no ar</li>
                 <li>Não precisa contribuir pra postar no site</li>
                 <li>Todo Site precisa de manutenção</li>
-                <li>Site ainda se encontra na versão 1.0</li>
+                <li>Site ainda na versão 1.0</li>
                 <li>Ainda vai ter muitas atualizações</li>
                 <li>Esse site conta com banco de dados</li>
               </ul>
