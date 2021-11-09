@@ -6,8 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Turma do patins</title>
-  <meta name="description" content="Gabriel Fernandes, Desenvolvedor, Patinador, Patins, Patins Campina Grande, Campina Grande, Paraiba
-  somos patinadores de Campina Grande Paraiba,"/>
+  <meta name="description" content="Patins Campina Grande-PB, Somo um grupo de patinadores tentando reunir em um único lugar pessoas que goste de liberdade, patinar na rua, slalom, freestyle, pessoas que queira se juntar a nós pra praticar, fazer amizades, aprender. Todos serão bem vindos"/>
   <meta name="author" content="Gabriel Fernandes" />
 
   <!-- fonts -->
