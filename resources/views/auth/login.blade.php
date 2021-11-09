@@ -32,7 +32,7 @@
                 </label>
             </div>
 
-            <div class="flex items-center justify-end mt-4">
+            <div class="flex items-center justify-home mt-4 mb-4">
                 @if (Route::has('password.request'))
                     <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
                         {{ __('Forgot your password?') }}
@@ -43,6 +43,7 @@
                     {{ __('Login') }}
                 </x-jet-button>
             </div>
+            <a class="scrollto mt-4" href="/register">Ainda nao tem uma conta? <strong>Registrar</strong></a>
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>

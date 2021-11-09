@@ -5,8 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>B-day</title>
-  <meta name="description" content="Gabriel Fernandes, Niver, Bday, Parabéns!!!"/>
+  <title>Turma do patins</title>
+  <meta name="description" content="Gabriel Fernandes, Desenvolvedor, Patinador, Patins, Patins Campina Grande, Campina Grande, Paraiba
+  somos patinadores de Campina Grande Paraiba,"/>
   <meta name="author" content="Gabriel Fernandes" />
 
   <!-- Favicons -->
@@ -37,30 +38,19 @@
 
 <body>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-        <p><strong>05/11/2021</strong></p>
-      <h1 data-aos="zoom-in">Gabriel Fernandes</h1>
-      <h2 data-aos="fade-up"><strong>Hoje vamos celebrar a vida, Sejam todos bem vindos!</strong></h2>
-      <a data-aos="fade-up" data-aos-delay="200" href="/events/create" class="btn-get-started scrollto">Poste uma foto comigo</a>
-    </div>
-  </section><!-- End Hero -->
 
-  <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
+    <div class="container d-flex align-items-center ">
       <nav id="navbar" class="navbar">
-        <ul>
+        <ul class="text-center">
           <li><a class="nav-link scrollto active" href="https://gabrielfernandesweb.online#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#about">Sobre mim</a></li>
-          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#services">Serviços</a></li>
+          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#about">turma do patins</a></li>
+          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#services">Dicas</a></li>
           <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#public">Publicaçoes</a></li>
-          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#footer">contato</a></li>
+          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#footer">Entre em contado</a></li>
           @auth
           <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online/dashboard">Perfil</a></li>
-          <li><a class="nav-link scrollto" href="/events/create">Criar publicação</a></li>
+          <li><a class="nav-link scrollto" href="/events/create">Criar evento</a></li>
           <li> <form action="/logout" method="POST">
             @csrf
             <a href="/logout" 
@@ -82,6 +72,19 @@
 
     </div>
   </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+        <p><strong>Adm: Gabriel Fernandes</strong></p>
+      <h1 data-aos="zoom-in">Turma do patins</h1>
+      <h2 data-aos="fade-up"><strong>venha patinar conosco, junte-se nós também no <a href="https://discord.gg/K95wtYHg">Discord</a></strong></h2>
+      <a data-aos="fade-up" data-aos-delay="200" href="/events/create" class="btn-get-started scrollto">chame outras pessoas para patinar</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <!-- ======= Header ======= -->
+  
   
 
   <main id="main">
@@ -91,8 +94,8 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Sobre mim</h2>
-          <p>Tentar resumir tudo em poucas linhas</p>
+          <h2>Turma do patins</h2>
+          <p>Um lugar onde todos tem voz</p>
         </div>
 
         <div class="row">
@@ -103,16 +106,18 @@
           </div>
           <div class="col-lg-6" data-aos="fade-left">
             <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 ">
-              <h3>Uma história de superação </h3>
+              <h3>Oportunidade </h3>
               <p class="fst-italic">
-                Todo mundo foi afetado de alguma forma com a pandemia, comigo não foi diferente. O que faz de cada um vencedor é como você linda com os seus problemas.</p>
+                Aqui você pode criar seu rolê
+              </p>
               <ul>
-                <li><i class="bx bx-check-double"></i>Estudei sobre investimentos e ainda lucrei muito no mercado financeiro.</li>
-                <li><i class="bx bx-check-double"></i>Estudei muito sobre varias tecnologias até conseguir botar meu site no ar.</li>
-                <li> Tudo é impossível até alguém ir lá e conseguir. Muita gente nem se importa de verdade se você realmente está bem, apenas gosta de saber da vida dos outros. Eu tirei esse ano apenas pra estudar, sabia desde do inicio que ficar sem trabalhar ia ser muito difícil, mas a gente quando quer ir mais longe precisamos dar dois passos pra trás pra pegar impulso e conseguir ir além. </li>
+                <li><i class="bx bx-check-double"></i>vai patinar em um local fixo? divulga aqui.</li>
+                <li><i class="bx bx-check-double"></i>Vai fazer urban? divulga aqui.</li>
+                <li>  </li>
               </ul>
               <p>
-                Cada um é capaz de coisas incríveis, basta acreditar, manter o foco, persistir e ter constância. Antes da pandemia eu saia, viajava muito. Esse ano rejeitei algumas ofertas de trabalha porque eu sei onde quero chega e você, por quanto tem vendido os seus sonhos? 
+                Vamos abrir um espaço pra vocês que querem patinar, e ajudar a divulgar o espaço. <br>
+                
               </p>
             </div>
           </div>
@@ -126,29 +131,34 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Serviços</h2>
-          <p>Aprendi muitas coisas até aqui:  </p>
+          <h2>Dicas</h2>
+          <p>Professor Jailson Inline</p>
+    
         </div>
 
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up">
-              <i class="bx bx-receipt"></i>
-              <h4>Habilidade com vendas.</h4>
-              <p>Quando completei 18 anos fui morar em Goiânia GO, eu aprendi muitas técnicas de vendas, aprender a ser um bom líder e a trabalhar em equipe.</p>
+              
+              <h4>Tipos de patins</h4>
+              <p>
+                Em breve
+              </p>
+            
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-cube-alt"></i>
-              <h4>Fotografia</h4>
-              <p>Em 2013 eu fiz curso de fotografia na UFCG, assim que terminei o curso comecei a trabalhar pra uma coluna social aqui da minha cidade. E logo comecei a pegar eventos particular, casamentos e 15 anos. Trabalhei com fotografia até final de 2019.</p>
+              
+              <h4>
+                Importância dos EPI 
+              </h4>
+              <p>em breve</p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-images"></i>
-              <h4>Engenharia de software</h4>
-              <p>Comecei a realmente estudar programação em março de 2021. Esse ano eu evoluir muito nos estudos. Minha meta é até o ano que vem está dominando programação web, mobile e fluente no inglês.</p>
+              
+              <h4>Dicas de patinação para iniciante</h4>
+              <p>Em breve</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets01/img/services.png");' data-aos="fade-left" data-aos-delay="100"></div>
         </div>
 
       </div>
@@ -157,66 +167,7 @@
     
 
     <!-- ======= Featured Section ======= -->
-    <section id="featured" class="featured">
-      <div class="container">
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-right">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <figure>
-                  <img src="/assets01/img/featured-1.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <figure>
-                  <img src="/assets01/img/featured-2.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <figure>
-                  <img src="/assets01/img/featured-3.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <figure>
-                  <img src="/assets01/img/featured-4.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-                  <h4>Trabalhar e investir</h4>
-                  <p>Você pode ganhar bem, mas precisa ter pelo menos uma noção sobre investimentos.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                  <h4>Uma vida confortável</h4>
-                  <p>Não precisa guardar tudo que ganha, saiba administrar seu dinheiro pra não ter uma vida miserável sendo rico.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                  <h4>Dinheiro é apenas um pedaço de papel</h4>
-                  <p>O que você faz com o dinheiro é o que realmente importa. Tudo na vida é sobre o que você faz com o que você tem</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-                  <h4>Dias de luta e dias de glória</h4>
-                  <p>Trate bem as pessoas, seja ela rica ou pobre, precisamos uns dos outros. Tenha humildade, Seja a pessoa que você gostaria de conhecer.</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Featured Section -->
 
     <!-- ======= Why Us Section ======= -->
     {{--
@@ -281,11 +232,11 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="public" class="portfolio mb-4 mt-4">
-      <div class="container">
+      <div class="container  mb-4 mt-4">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Publicações</h2>
-          <p class="mb-4">Se não sair bonito tudo bem, o que importa é ter saúde.😜</p>
+        <div class="section-title container-fluid" data-aos="fade-up">
+          <h2>Eventos</h2>
+          <p class="mb-4">hoje tem rolê? Eventos aqui em abaixo</p>
 
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
             @foreach($events as $event)
@@ -313,68 +264,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="zoom-in">
-        <div class="quote-icon">
-         
-        </div>
-
-        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-            
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <a href="https://instagram.com/aysagsadvs?utm_medium=copy_link" target="_blank">
-                  <img src="/assets01/img/testimonials/Aysa.jpeg" class="testimonial-img" alt="">
-                </a>
-                <h3>Aysa Gusmão</h3>
-                <h4>Advogada empresarial</h4>
-                <a href="https://instagram.com/aysagsadvs?utm_medium=copy_link"target="_blank"><i class="bx bxl-instagram"></i></a>
-                <p>
-                  Poucas vezes temos a chance de encontrar pessoas de bom coração no mundo, pessoas que veem o mundo por uma perspectiva diferente, pessoas com um olhar sensível a tudo que acontece ao seu redor, com empatia e delicadeza para tentar se colocar no lugar do próximo e você é um desses seres de luz, que Deus conserve o seu coração assim e que você continue  sendo luz é diferença no mundo. Parabéns pelo seu dia🌷🌷🌷
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            
-            
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <a href="https://instagram.com/its.diniz?utm_medium=copy_link" target="_blank">
-                  <img src="/assets01/img/testimonials/isabelle.jpeg" class="testimonial-img" alt="">
-                </a>
-                <h3>Isabelle</h3>
-                <a href="https://instagram.com/its.diniz?utm_medium=copy_link"target="_blank"><i class="bx bxl-instagram"></i></a>
-                <p>
-                  Muitos não se dão conta, mas o significado da palavra amizade é bem complexo. Amigo é aquela pessoa que você sabe que pode contar pra tudo. Alguém que te deixa a vontade pra ser você mesmo. Alguém que celebra tuas conquistas e te dá a mão nos momentos difíceis… 
-                  Eu não tenho muitos amigos… é muito difícil achar amigos de verdade. Mas sou feliz de chamar Gabriel de amigo e sou grata por todos os momentos compartilhados e mais ainda por nossa amizade continuar a mesma apesar da distância.
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-            
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <a href="https://instagram.com/leiliane_goncalo?utm_medium=copy_link" target="_blank">
-                  <img src="/assets01/img/testimonials/liany.jpeg" class="testimonial-img" alt="">
-                </a>
-                <h3>Liany</h3>
-                <a href="https://instagram.com/leiliane_goncalo?utm_medium=copy_link"target="_blank"><i class="bx bxl-instagram"></i></a>
-                <p>
-                  Feliz aniversário doido da minha vida!
-                  Que Deus te abençoe imensamente, <br/> te dê muitos anos de vida, saúde e sabedoria.
-                  Estarei sempre aqui de 9 em 9 anos <br/> (entendemos kkk)
-                  Enfim, parabéns!🥳❤
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
+   
 
 
     <!-- ======= Clients Section ======= -->
@@ -455,65 +345,71 @@
     --}}
 
     <!-- ======= Pricing Section ======= -->
-    {{--
+    
     <section id="pricing" class="pricing section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+          <h2>Precisamos do seu apoio</h2>
+          <p>Vocês estão gostando do site? Ajude a continuar esse projeto, seja um apoiador</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-4 col-md-6">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
+              <h3>Lading page</h3>
+              <h4>1.300,00<span> / Reais</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>Deixe milhoões de pessoas <br />
+                   conhecer seu trabalho</li>
+                <li>Site com certificado ssl</li>
+                <li>Ambiente seguro (HTTPS)</li>
+                <li>Exemplo de lading page</li>
+                <a href="meuvento.tech">meuevento.tech</a>
+                <li></li>
+                <li class="na"></li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="https://wa.me/message/5N2F3F7WSTGCN1" class="btn-buy">Mais informações</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
             <div class="box recommended" data-aos="zoom-in">
-              <span class="recommended-badge">Recommended</span>
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
+              <span class="recommended-badge">Recomendado</span>
+              <h3>Seja um apoiador</h3>
+              <h4>10<span> / Reais</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>Não é muito, mas ajuda a manter o site no ar</li>
+                <li>Não precisa contribuir pra postar no site</li>
+                <li>Todo Site precisa de manutenção</li>
+                <li>Site ainda se encontra na versão 1.0</li>
+                <li>Ainda vai ter muitas atualizações</li>
+                <li>Esse site conta com banco de dados</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="https://nubank.com.br/pagar/1f5hpu/9KdPwdRMEt" class="btn-buy">Apoiar projeto</a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
+              <h3>Site Pro</h3>
+              <h4>5.500,00<span> / Reais</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
+                <li>Site com certificado ssl</li>
+                <li>Ambiente seguro (HTTPS)</li>
+                <li>O site conta com sistema de login e <br/> banco de dados</li>
+                <li>Exemplo de um site Pro</li>
+                <a href="turmadopatins.tech">turmadopatins.tech</a>
+                <li></li>
+                <li class="na"></li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="https://api.whatsapp.com/send?phone=558396724726&text=tenho%20interesse%20em%20saber%20mais%20sobre%20Site%20Pro" class="btn-buy">Mais informações</a>
               </div>
             </div>
           </div>
@@ -522,7 +418,7 @@
 
       </div>
     </section><!-- End Pricing Section -->
-
+{{--
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
       <div class="container">
@@ -679,7 +575,7 @@
           <a href="https://wa.me/message/5N2F3F7WSTGCN1"target="_blank" class="twitter"><i class="bx bxl-whatsapp"></i></a>
           <a href="https://github.com/Gabrielfernandes87f"target="_blank" class="facebook"><i class="bx bxl-github"></i></a>
           <a href="https://instagram.com/gabriel.fernandes.f?utm_medium=copy_link"target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-discord"></i></a>
+          <a href="https://discord.gg/K95wtYHg" class="google-plus"><i class="bx bxl-discord"></i></a>
           
         </div>
 
