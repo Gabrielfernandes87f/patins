@@ -404,7 +404,7 @@
                 <li>Ambiente seguro (HTTPS)</li>
                 <li>O site conta com sistema de login e <br/> banco de dados</li>
                 <li>Exemplo de um site Pro</li>
-                <a href="turmadopatins.tech">turmadopatins.tech</a>
+                <a href="/">turmadopatins.tech</a>
                 <li></li>
                 <li class="na"></li>
               </ul>
