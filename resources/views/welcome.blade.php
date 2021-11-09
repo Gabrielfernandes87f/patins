@@ -10,7 +10,15 @@
   somos patinadores de Campina Grande Paraiba,"/>
   <meta name="author" content="Gabriel Fernandes" />
 
-  <!-- Favicons -->
+  <!-- fonts -->
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,500;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+  </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,500;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
   
   <link href="/assets01/img/apple-touch-icon.png" rel="apple-touch-icon">
 
@@ -43,13 +51,13 @@
     <div class="container d-flex align-items-center ">
       <nav id="navbar" class="navbar">
         <ul class="text-center">
-          <li><a class="nav-link scrollto active" href="https://gabrielfernandesweb.online#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#about">turma do patins</a></li>
-          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#services">Dicas</a></li>
-          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#public">Publicaçoes</a></li>
-          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#footer">Entre em contado</a></li>
+          <li><a class="nav-link scrollto active" href="https://turmadopatins.tech#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="https://turmadopatins.tech#about">turma do patins</a></li>
+          <li><a class="nav-link scrollto" href="https://turmadopatins.tech#services">Dicas</a></li>
+          <li><a class="nav-link scrollto" href="https://turmadopatins.tech#public">Publicaçoes</a></li>
+          <li><a class="nav-link scrollto" href="https://turmadopatins.tech#footer">Entre em contado</a></li>
           @auth
-          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online/dashboard">Perfil</a></li>
+          <li><a class="nav-link scrollto" href="https://turmadopatins.tech/dashboard">Perfil</a></li>
           <li><a class="nav-link scrollto" href="/events/create">Criar evento</a></li>
           <li> <form action="/logout" method="POST">
             @csrf
@@ -362,10 +370,10 @@
               <h4>1.300,00<span> / Reais</span></h4>
               <ul>
                 <li>Deixe milhoões de pessoas <br />
-                   conhecer seu trabalho</li>
-                <li>Site com certificado ssl</li>
-                <li>Ambiente seguro (HTTPS)</li>
-                <li>Exemplo de lading page</li>
+                   conhecer seu trabalho.</li>
+                <li>Site com certificado ssl.</li>
+                <li>Ambiente seguro (HTTPS).</li>
+                <li>Exemplo de lading page.</li>
                 <a href="meuvento.tech">meuevento.tech</a>
                 <li></li>
                 <li class="na"></li>
@@ -378,16 +386,16 @@
 
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
             <div class="box recommended" data-aos="zoom-in">
-              <span class="recommended-badge">Recomendado</span>
-              <h3>Seja um apoiador</h3>
-              <h4>10<span> / Reais</span></h4>
+              <span class="recommended-badge mt-2">Recomendado</span>
+              <h3 class="mt-4">Seja um apoiador</h3>
+              <h4>10,00<span> / Reais</span></h4>
               <ul>
-                <li>Não é muito, mas ajuda a manter o site no ar</li>
-                <li>Não precisa contribuir pra postar no site</li>
-                <li>Todo Site precisa de manutenção</li>
+                <li>Não é muito, mas ajuda a manter o site no ar.</li>
+                <li>Não precisa contribuir pra postar no site.</li>
+                <li>Todo Site precisa de manutenção.</li>
+                <li>Ainda vai ter muitas atualizações.</li>
+                <li>Esse site conta com banco de dados.</li>
                 <li>Site ainda na versão 1.0</li>
-                <li>Ainda vai ter muitas atualizações</li>
-                <li>Esse site conta com banco de dados</li>
               </ul>
               <div class="btn-wrap">
                 <a href="https://nubank.com.br/pagar/1f5hpu/9KdPwdRMEt" class="btn-buy">Apoiar projeto</a>
@@ -400,11 +408,11 @@
               <h3>Site Pro</h3>
               <h4>5.500,00<span> / Reais</span></h4>
               <ul>
-                <li>Site com certificado ssl</li>
-                <li>Ambiente seguro (HTTPS)</li>
-                <li>O site conta com sistema de login e <br/> banco de dados</li>
-                <li>Exemplo de um site Pro</li>
-                <a href="/">turmadopatins.tech</a>
+                <li>Site com certificado ssl.</li>
+                <li>Ambiente seguro (HTTPS).</li>
+                <li>O site conta com sistema de login e <br/> banco de dados.</li>
+                <li>Exemplo de um site Pro.</li>
+                <a href="/">turmadopatins.tech.</a>
                 <li></li>
                 <li class="na"></li>
               </ul>

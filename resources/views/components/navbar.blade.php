@@ -15,13 +15,13 @@
       <div class="container d-flex align-items-center ">
         <nav id="navbar" class="navbar">
           <ul class="text-center">
-            <li><a class="nav-link scrollto active" href="https://gabrielfernandesweb.online#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#about">turma do patins</a></li>
-            <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#services">Dicas</a></li>
-            <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#public">Publicaçoes</a></li>
-            <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#footer">Entre em contado</a></li>
+            <li><a class="nav-link scrollto active" href="https://turmadopatins.tech#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="https://turmadopatins.tech#about">turma do patins</a></li>
+            <li><a class="nav-link scrollto" href="https://turmadopatins.tech#services">Dicas</a></li>
+            <li><a class="nav-link scrollto" href="https://turmadopatins.tech#public">Publicaçoes</a></li>
+            <li><a class="nav-link scrollto" href="https://turmadopatins.tech#footer">Entre em contado</a></li>
             @auth
-            <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online/dashboard">Perfil</a></li>
+            <li><a class="nav-link scrollto" href="https://turmadopatins.tech/dashboard">Perfil</a></li>
             <li><a class="nav-link scrollto" href="/events/create">Criar evento</a></li>
             <li> <form action="/logout" method="POST">
               @csrf

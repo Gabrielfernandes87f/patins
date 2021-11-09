@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #555555;
+  font-family: 'Roboto', sans-serif;
+  color: #464646;
 }
 
 a {
@@ -24,8 +24,14 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
+#public p {
+  font-family: "Fira sans", sans-serif;
+  color: #353333b9;
+}
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -1216,13 +1222,12 @@ section {
   border: 1px solid #fff;
 }
 
-.pricing .box h3 {
-  font-weight: 400;
-  padding: 15px;
-  margin-top: 15px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #151515;
+
+.pricing p {
+  font-family: "Ubuntu", sans-serif;
+  color: #5a5959cd;
+  
+
 }
 
 .pricing .box h4 {
@@ -1282,7 +1287,7 @@ section {
   color: #7cc576;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1299,6 +1304,7 @@ section {
 .pricing .recommended .btn-buy {
   background: #7cc576;
   color: #fff;
+  margin-bottom: -60px;
 }
 
 .pricing .recommended .btn-buy:hover {
