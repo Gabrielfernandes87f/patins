@@ -371,7 +371,7 @@
                 <li class="na"></li>
               </ul>
               <div class="btn-wrap">
-                <a href="https://wa.me/message/5N2F3F7WSTGCN1" class="btn-buy">Mais informações</a>
+                <a href="https://api.whatsapp.com/send?phone=558396724726&text=tenho%20interesse%20em%20saber%20sobre%20lading%20page" class="btn-buy">Mais informações</a>
               </div>
             </div>
           </div>
