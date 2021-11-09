@@ -78,7 +78,7 @@
     <div class="hero-container">
         <p><strong>Adm: Gabriel Fernandes</strong></p>
       <h1 data-aos="zoom-in">Turma do patins</h1>
-      <h2 data-aos="fade-up"><strong>venha patinar conosco, junte-se nós também no <a href="https://discord.gg/K95wtYHg">Discord</a></strong></h2>
+      <h2 data-aos="fade-up"><strong>venha patinar conosco, junte-se a nós também no <a href="https://discord.gg/K95wtYHg">Discord</a></strong></h2>
       <a data-aos="fade-up" data-aos-delay="200" href="/events/create" class="btn-get-started scrollto">Quer andar de patins? post aqui</a>
     </div>
   </section><!-- End Hero -->
