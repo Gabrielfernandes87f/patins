@@ -87,7 +87,8 @@
       <h1 data-aos="zoom-in">Turma do patins</h1>
       <h2 data-aos="fade-up"><strong>venha patinar conosco, junte-se a nós também no <a href="https://discord.gg/K95wtYHg">Discord</a></strong></h2>
       <a data-aos="fade-up" data-aos-delay="200" href="/events/create" class="btn-get-started scrollto">
-        Vai andar de patins? convide outras pessoas criando um anúncio aqui</a>
+        Vai andar de patins? crie um anúncio aqui</a>
+        <p>Outras pessoas poderão ver seu anúncio e se juntar a você</p>
     </div>
   </section><!-- End Hero -->
 
