@@ -1722,3 +1722,22 @@ section {
   padding: 20px 0px;
   margin: 10px 0px;
 }
+.btn-instagram {
+  background: #0257d5;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+}
+.btn-instagram:hover {
+  background: #02398c;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#info-container a:hover {
+  color: #fff;
+  background: #02398c;
+}

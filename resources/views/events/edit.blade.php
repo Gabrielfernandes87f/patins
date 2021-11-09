@@ -10,7 +10,7 @@
     @csrf
     @method('PUT')
     <div class="form-group">
-      <label for="image">foto da festa:</label>
+      <label for="image">foto do anúncio:</label>
       <input type="file" id="image" name="image" class="from-control-file">
       <img src="/img/events/{{ $event->image }}" alt="{{ $event->title }}" class="img-preview">
     </div>
@@ -19,7 +19,7 @@
       <input type="text" class="form-control" id="title" name="title" placeholder="Nome do evento" value="{{ $event->title }}">
     </div>
     <div class="form-group">
-      <label for="date">Data da festa:</label>
+      <label for="date">Qual a data:</label>
       <input type="date" class="form-control" id="date" name="date" value="{{ $event->date->format('Y-m-d') }}">
     </div>
     <div class="form-group">
@@ -27,14 +27,14 @@
       <input type="text" class="form-control" id="city" name="city" placeholder="Local do evento" value="{{ $event->city }}">
     </div>
     <div class="form-group">
-      <label for="title">Nessa foto o aniversariante tá presente?</label>
+      <label for="title">Esse Evento conta com algum suporte<</label>
       <select name="private" id="private" class="form-control">
         <option value="0">Não</option>
         <option value="1" {{ $event->private == 1 ? "selected='selected'" : "" }}>Sim</option>
       </select>
     </div>
     <div class="form-group">
-      <label for="title">Fale um pouco sobre a festa:</label>
+      <label for="title">F</label>
       <textarea name="description" id="description" class="form-control" placeholder="O que vai acontecer no evento?">{{ $event->description }}</textarea>
     </div>
     <div class="form-group">

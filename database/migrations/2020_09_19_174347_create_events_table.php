@@ -17,6 +17,7 @@ class CreateEventsTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string("title");
+            $table->string("instagram");
             $table->text("description");
             $table->string("city");
             $table->boolean("private");
