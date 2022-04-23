@@ -225,7 +225,7 @@
               <h3>Lading page</h3>
               <h4>1.300,00<span> / Reais</span></h4>
               <ul>
-                <li>Deixe milhoõs de pessoas <br />
+                <li>Deixe milhõs de pessoas <br />
                    conhecer seu trabalho.</li>
                 <li>Site com certificado ssl.</li>
                 <li>Ambiente seguro (HTTPS).</li>

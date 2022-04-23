@@ -42,15 +42,16 @@ $ php artisan serve
 - projetos rodando em na porta: 8000  = http://127.0.0.1:8000/
 ```
 
-<img alt="header" src="https://github.com/Gabrielfernandes87f/turma-do-patins/img/header.png">
+<img alt="header" src="https://github.com/Gabrielfernandes87f/patins/blob/main/public/assets/img/header.png">
+<br/>
 
-<img alt="index" src="https://github.com/Gabrielfernandes87f/turma-do-patins/img/index.png">
+<img alt="index" src="https://github.com/Gabrielfernandes87f/patins/blob/main/public/assets/img/index.png">
 
-<img alt="dicas e eventos" src="https://github.com/Gabrielfernandes87f/turma-do-patins/img/dicas-eventos.png">
+<img alt="dicas e eventos" src="https://github.com/Gabrielfernandes87f/patins/blob/main/public/assets/img/dicas-eventos.png">
 
-<img alt="price" src="https://github.com/Gabrielfernandes87f/turma-do-patins/img/price.png">
+<img alt="price" src="https://github.com/Gabrielfernandes87f/patins/blob/main/public/assets/img/price.png">
 
-<img alt="footer" src="https://github.com/Gabrielfernandes87f/turma-do-patins/img/footer.png">
+<img alt="footer" src="https://github.com/Gabrielfernandes87f/patins/blob/main/public/assets/img/footer.png">
 
 
 
