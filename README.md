@@ -14,7 +14,7 @@
 - O projeto ainda está em fase de desenvolvimento, mas já está disponível para uso.
 - Esse site foi tirado do ar, motivos finaceiros. 
 - Usando a versao php 7.3
-- usando systema de login (Jetstream)
+- Usando systema de login (Jetstream)
 
 Com o conhecimento adquirido no curso de laravel 8, eu decidi criar esse projeto e colocar em pratica tudo que havia estudado.
 
