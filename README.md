@@ -36,7 +36,7 @@ $ composer install
 # Run the project
 $ cp .env.example .env
 $ php artisan key:generate
-- criar um banco de dados rodar local, botar so criar um banco usando o xampp
+- criar um banco de dados rodar local
 $ php artisan migrate
 $ php artisan serve
 - projetos rodando em na porta: 8000  = http://127.0.0.1:8000/
