@@ -36,7 +36,7 @@ $ composer install
 # Run the project
 $ cp .env.example .env
 $ php artisan key:generate
-- criar um banco de dados rodar local
+- crie um banco de dados
 $ php artisan migrate
 $ php artisan serve
 - Projeto rodando em na porta: 8000  = http://127.0.0.1:8000/
