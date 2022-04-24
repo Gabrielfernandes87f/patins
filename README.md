@@ -28,7 +28,7 @@ Com o conhecimento adquirido no curso de laravel 8, eu decidi criar esse projeto
 
 ```bash
 # Clone this project
-$ git clone https://github.com/Gabrielfernandes87f/turma-do-patins
+$ git clone https://github.com/Gabrielfernandes87f/patins.git
 # Access
 $ cd patins
 # Install dependencies
