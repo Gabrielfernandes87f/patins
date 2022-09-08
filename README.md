@@ -88,6 +88,11 @@ Instalar as dependências do projeto
 composer install
 ```
 
+Subindo banco de dados
+
+```sh
+php artisan migrate
+```
 
 Gerar a key do projeto Laravel
 
