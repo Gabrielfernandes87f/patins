@@ -27,19 +27,74 @@ Com o conhecimento adquirido no curso de laravel 8, eu decidi criar esse projeto
 ## :checkered_flag: Starting ## - iniciando projeto
 
 ```bash
-# Clone this project
-$ git clone https://github.com/Gabrielfernandes87f/patins.git
-# Access
-$ cd patins
-# Install dependencies
-$ composer install
-# Run the project
-$ cp .env.example .env
-$ php artisan key:generate
-- crie um banco de dados
-$ php artisan migrate
-$ php artisan serve
-- Projeto rodando em na porta: 8000  = http://127.0.0.1:8000/
+## Subir a API
+Para testar o projeto, siga os passos descritos abaixo
+
+### Passo a passo
+Clone Repositório
+```sh
+git clone  https://github.com/Gabrielfernandes87f/patins.git
+```
+
+```sh
+cd patins
+```
+
+Crie o Arquivo .env
+```sh
+cp .env.example .env
+```
+
+
+Atualize as variáveis de ambiente do arquivo .env
+```dosini
+APP_NAME=laravel-api
+APP_URL=http://localhost:8180
+
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=userdb
+DB_PASSWORD=senhadb
+
+CACHE_DRIVER=redis
+QUEUE_CONNECTION=redis
+SESSION_DRIVER=redis
+
+REDIS_HOST=redis
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+```
+
+
+Suba os containers do projeto
+```sh
+docker-compose up -d --build
+```
+```
+
+
+Acessar o container do projeto
+```sh
+docker-compose exec laravel_8 bash
+```
+
+
+Instalar as dependências do projeto
+```sh
+composer install
+```
+
+
+Gerar a key do projeto Laravel
+```sh
+php artisan key:generate
+```
+
+
+Acesse o projeto
+[http://localhost:8180](http://localhost:8180)
 ```
 
 <img alt="header" src="https://github.com/Gabrielfernandes87f/patins/blob/main/public/assets/img/header.png">
