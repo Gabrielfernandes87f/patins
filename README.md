@@ -26,12 +26,12 @@ Com o conhecimento adquirido no curso de laravel 8, eu decidi criar esse projeto
 
 ## :checkered_flag: Starting ## - iniciando projeto
 
-```bash
 ## Iniciando projeto
 Para testar o projeto, siga os passos descritos abaixo
 
 ### Passo a passo
 Clone Repositório
+
 ```sh
 git clone  https://github.com/Gabrielfernandes87f/patins.git
 ```
@@ -41,6 +41,7 @@ cd patins
 ```
 
 Crie o Arquivo .env
+
 ```sh
 cp .env.example .env
 ```
@@ -69,31 +70,35 @@ REDIS_PORT=6379
 
 
 Suba os containers do projeto
+
 ```sh
 docker-compose up -d --build
 ```
-```
-
 
 Acessar o container do projeto
+
 ```sh
 docker-compose exec laravel_8 bash
 ```
 
 
 Instalar as dependências do projeto
+
 ```sh
 composer install
 ```
 
 
 Gerar a key do projeto Laravel
+
 ```sh
 php artisan key:generate
 ```
 
 
 Acesse o projeto
+
+```sh
 [http://localhost:8180](http://localhost:8180)
 ```
 
