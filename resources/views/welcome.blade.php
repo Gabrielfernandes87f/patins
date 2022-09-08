@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Turma do patins</title>
-  <meta name="description" content="Patins Campina Grande-PB, Somo um grupo de patinadores tentando reunir em um único lugar pessoas que goste de liberdade, patinar na rua, slalom, freestyle, pessoas que queira se juntar a nós pra praticar, fazer amizades, aprender. Todos serão bem vindos"/>
+  <meta name="description" content="Patins Campina Grande-PB, Somos um grupo de patinadores tentando reunir em um único lugar pessoas que goste de liberdade, patinar na rua, slalom, freestyle, pessoas que queira se juntar a nós pra praticar, fazer amizades, aprender. Todos serão bem vindos"/>
   <meta name="author" content="Gabriel Fernandes" />
 
   <!-- fonts -->
@@ -32,15 +32,8 @@
   <link href="/assets01/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="/assets01/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="/assets01/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Knight - v4.3.0
-  * Template URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="/assets01/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -93,8 +86,6 @@
   </section><!-- End Hero -->
 
   <!-- ======= Header ======= -->
-
-
 
   <main id="main">
 
@@ -200,10 +191,6 @@
           </div>
         </div>
 
-
-
-
-
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -230,8 +217,6 @@
                 <li>Site com certificado ssl.</li>
                 <li>Ambiente seguro (HTTPS).</li>
                 <li>Exemplo de lading page.</li>
-                <a href="meuvento.tech">meuevento.tech</a>
-                <li></li>
                 <li class="na"></li>
               </ul>
               <div class="btn-wrap">
@@ -266,14 +251,13 @@
               <ul>
                 <li>Site com certificado ssl.</li>
                 <li>Ambiente seguro (HTTPS).</li>
-                <li>O site conta com sistema de login e <br/> banco de dados.</li>
+                <li>O site com sistema de login</li>
                 <li>Exemplo de um site Pro.</li>
-                <a href="/">turmadopatins.tech.</a>
                 <li></li>
                 <li class="na"></li>
               </ul>
               <div class="btn-wrap">
-                <a href="https://api.whatsapp.com/send?phone=558396724726&text=tenho%20interesse%20em%20saber%20mais%20sobre%20Site%20Pro" class="btn-buy">Mais informações</a>
+                <a href="https://api.whatsapp.com/send?phone=5583996724726&text=Olá%2C%20fiquei%20interessado%20em%20seu%20serviço" class="btn-buy">Mais informações</a>
               </div>
             </div>
           </div>
@@ -292,20 +276,13 @@
 
         <div class="row footer-newsletter justify-content-center">
           <div class="col-lg-6">
-            <h4><a href="https://www.meuevento.tech"target="_blank">www.meuevento.tech</a></h1>
-            <p>Api em Next</p>
+            <h4><a href="https://gabriel1coder.tech/"target="_blank">gabriel1coder.tech</a></h1>
+            <p>Visite meu portfólio</p>
           </div>
         </div>
 
-        <div class="row footer-newsletter justify-content-center">
-            <div class="col-lg-6">
-              <h4><a href="https://www.meuevento.tech"target="_blank">gabrielfernandes87f.github.io/my-pages</a></h1>
-              <p>Minha pagina de apresentação - gitpages</p>
-            </div>
-          </div>
-
         <div class="social-links">
-          <a href="https://wa.me/message/5N2F3F7WSTGCN1"target="_blank" class="twitter"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5583996724726&text=Olá%2C%20fiquei%20interessado%20em%20seu%20serviço"target="_blank" class="twitter"><i class="bx bxl-whatsapp"></i></a>
           <a href="https://github.com/Gabrielfernandes87f"target="_blank" class="facebook"><i class="bx bxl-github"></i></a>
           <a href="https://instagram.com/gabriel.fernandes.f?utm_medium=copy_link"target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="https://discord.gg/K95wtYHg" class="google-plus"><i class="bx bxl-discord"></i></a>
@@ -321,10 +298,6 @@
       </div>
     </div>
   </footer><!-- End Footer -->
-  <!-- Vendor JS Files -->
-
-
-
   <script src="/assets01/vendor/aos/aos.js"></script>
   <script src="/assets01/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/assets01/vendor/glightbox/js/glightbox.min.js"></script>
@@ -335,7 +308,7 @@
   <!-- Template Main JS File -->
   <script src="/assets01/js/main.js"></script>
 
-
 </body>
 
 </html>
+
