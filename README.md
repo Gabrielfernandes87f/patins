@@ -27,7 +27,7 @@ Com o conhecimento adquirido no curso de laravel 8, eu decidi criar esse projeto
 ## :checkered_flag: Starting ## - iniciando projeto
 
 ## Iniciando projeto
-Para testar o projeto, siga os passos descritos abaixo
+Teste o projeto
 
 ### Passo a passo
 Clone Repositório
